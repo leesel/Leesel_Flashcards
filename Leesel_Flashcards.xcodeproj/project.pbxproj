@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D7C2C85823FF6BB2005A945C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C2C85723FF6BB2005A945C /* AppDelegate.swift */; };
+		D7C2C85A23FF6BB2005A945C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C2C85923FF6BB2005A945C /* SceneDelegate.swift */; };
+		D7C2C85C23FF6BB2005A945C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C2C85B23FF6BB2005A945C /* ViewController.swift */; };
+		D7C2C85F23FF6BB2005A945C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7C2C85D23FF6BB2005A945C /* Main.storyboard */; };
+		D7C2C86123FF6BB8005A945C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7C2C86023FF6BB8005A945C /* Assets.xcassets */; };
+		D7C2C86423FF6BB8005A945C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7C2C86223FF6BB8005A945C /* LaunchScreen.storyboard */; };
+		D7C2C86F23FF6BB8005A945C /* Leesel_FlashcardsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C2C86E23FF6BB8005A945C /* Leesel_FlashcardsTests.swift */; };
+		D7C2C87A23FF6BB8005A945C /* Leesel_FlashcardsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C2C87923FF6BB8005A945C /* Leesel_FlashcardsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D7C2C86B23FF6BB8005A945C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7C2C84C23FF6BB2005A945C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7C2C85323FF6BB2005A945C;
+			remoteInfo = Leesel_Flashcards;
+		};
+		D7C2C87623FF6BB8005A945C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7C2C84C23FF6BB2005A945C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7C2C85323FF6BB2005A945C;
+			remoteInfo = Leesel_Flashcards;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D7C2C85423FF6BB2005A945C /* Leesel_Flashcards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Leesel_Flashcards.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7C2C85723FF6BB2005A945C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D7C2C85923FF6BB2005A945C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D7C2C85B23FF6BB2005A945C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D7C2C85E23FF6BB2005A945C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D7C2C86023FF6BB8005A945C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7C2C86323FF6BB8005A945C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D7C2C86523FF6BB8005A945C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7C2C86A23FF6BB8005A945C /* Leesel_FlashcardsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Leesel_FlashcardsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7C2C86E23FF6BB8005A945C /* Leesel_FlashcardsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leesel_FlashcardsTests.swift; sourceTree = "<group>"; };
+		D7C2C87023FF6BB8005A945C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7C2C87523FF6BB8005A945C /* Leesel_FlashcardsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Leesel_FlashcardsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7C2C87923FF6BB8005A945C /* Leesel_FlashcardsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leesel_FlashcardsUITests.swift; sourceTree = "<group>"; };
+		D7C2C87B23FF6BB8005A945C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7C2C85123FF6BB2005A945C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7C2C86723FF6BB8005A945C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7C2C87223FF6BB8005A945C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D7C2C84B23FF6BB2005A945C = {
+			isa = PBXGroup;
+			children = (
+				D7C2C85623FF6BB2005A945C /* Leesel_Flashcards */,
+				D7C2C86D23FF6BB8005A945C /* Leesel_FlashcardsTests */,
+				D7C2C87823FF6BB8005A945C /* Leesel_FlashcardsUITests */,
+				D7C2C85523FF6BB2005A945C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D7C2C85523FF6BB2005A945C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7C2C85423FF6BB2005A945C /* Leesel_Flashcards.app */,
+				D7C2C86A23FF6BB8005A945C /* Leesel_FlashcardsTests.xctest */,
+				D7C2C87523FF6BB8005A945C /* Leesel_FlashcardsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7C2C85623FF6BB2005A945C /* Leesel_Flashcards */ = {
+			isa = PBXGroup;
+			children = (
+				D7C2C85723FF6BB2005A945C /* AppDelegate.swift */,
+				D7C2C85923FF6BB2005A945C /* SceneDelegate.swift */,
+				D7C2C85B23FF6BB2005A945C /* ViewController.swift */,
+				D7C2C85D23FF6BB2005A945C /* Main.storyboard */,
+				D7C2C86023FF6BB8005A945C /* Assets.xcassets */,
+				D7C2C86223FF6BB8005A945C /* LaunchScreen.storyboard */,
+				D7C2C86523FF6BB8005A945C /* Info.plist */,
+			);
+			path = Leesel_Flashcards;
+			sourceTree = "<group>";
+		};
+		D7C2C86D23FF6BB8005A945C /* Leesel_FlashcardsTests */ = {
+			isa = PBXGroup;
+			children = (
+				D7C2C86E23FF6BB8005A945C /* Leesel_FlashcardsTests.swift */,
+				D7C2C87023FF6BB8005A945C /* Info.plist */,
+			);
+			path = Leesel_FlashcardsTests;
+			sourceTree = "<group>";
+		};
+		D7C2C87823FF6BB8005A945C /* Leesel_FlashcardsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D7C2C87923FF6BB8005A945C /* Leesel_FlashcardsUITests.swift */,
+				D7C2C87B23FF6BB8005A945C /* Info.plist */,
+			);
+			path = Leesel_FlashcardsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7C2C85323FF6BB2005A945C /* Leesel_Flashcards */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7C2C87E23FF6BB8005A945C /* Build configuration list for PBXNativeTarget "Leesel_Flashcards" */;
+			buildPhases = (
+				D7C2C85023FF6BB2005A945C /* Sources */,
+				D7C2C85123FF6BB2005A945C /* Frameworks */,
+				D7C2C85223FF6BB2005A945C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Leesel_Flashcards;
+			productName = Leesel_Flashcards;
+			productReference = D7C2C85423FF6BB2005A945C /* Leesel_Flashcards.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D7C2C86923FF6BB8005A945C /* Leesel_FlashcardsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7C2C88123FF6BB8005A945C /* Build configuration list for PBXNativeTarget "Leesel_FlashcardsTests" */;
+			buildPhases = (
+				D7C2C86623FF6BB8005A945C /* Sources */,
+				D7C2C86723FF6BB8005A945C /* Frameworks */,
+				D7C2C86823FF6BB8005A945C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7C2C86C23FF6BB8005A945C /* PBXTargetDependency */,
+			);
+			name = Leesel_FlashcardsTests;
+			productName = Leesel_FlashcardsTests;
+			productReference = D7C2C86A23FF6BB8005A945C /* Leesel_FlashcardsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D7C2C87423FF6BB8005A945C /* Leesel_FlashcardsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7C2C88423FF6BB8005A945C /* Build configuration list for PBXNativeTarget "Leesel_FlashcardsUITests" */;
+			buildPhases = (
+				D7C2C87123FF6BB8005A945C /* Sources */,
+				D7C2C87223FF6BB8005A945C /* Frameworks */,
+				D7C2C87323FF6BB8005A945C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7C2C87723FF6BB8005A945C /* PBXTargetDependency */,
+			);
+			name = Leesel_FlashcardsUITests;
+			productName = Leesel_FlashcardsUITests;
+			productReference = D7C2C87523FF6BB8005A945C /* Leesel_FlashcardsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7C2C84C23FF6BB2005A945C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Leesel Fraser";
+				TargetAttributes = {
+					D7C2C85323FF6BB2005A945C = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					D7C2C86923FF6BB8005A945C = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = D7C2C85323FF6BB2005A945C;
+					};
+					D7C2C87423FF6BB8005A945C = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = D7C2C85323FF6BB2005A945C;
+					};
+				};
+			};
+			buildConfigurationList = D7C2C84F23FF6BB2005A945C /* Build configuration list for PBXProject "Leesel_Flashcards" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7C2C84B23FF6BB2005A945C;
+			productRefGroup = D7C2C85523FF6BB2005A945C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7C2C85323FF6BB2005A945C /* Leesel_Flashcards */,
+				D7C2C86923FF6BB8005A945C /* Leesel_FlashcardsTests */,
+				D7C2C87423FF6BB8005A945C /* Leesel_FlashcardsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7C2C85223FF6BB2005A945C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7C2C86423FF6BB8005A945C /* LaunchScreen.storyboard in Resources */,
+				D7C2C86123FF6BB8005A945C /* Assets.xcassets in Resources */,
+				D7C2C85F23FF6BB2005A945C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7C2C86823FF6BB8005A945C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7C2C87323FF6BB8005A945C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7C2C85023FF6BB2005A945C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7C2C85C23FF6BB2005A945C /* ViewController.swift in Sources */,
+				D7C2C85823FF6BB2005A945C /* AppDelegate.swift in Sources */,
+				D7C2C85A23FF6BB2005A945C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7C2C86623FF6BB8005A945C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7C2C86F23FF6BB8005A945C /* Leesel_FlashcardsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7C2C87123FF6BB8005A945C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7C2C87A23FF6BB8005A945C /* Leesel_FlashcardsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D7C2C86C23FF6BB8005A945C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7C2C85323FF6BB2005A945C /* Leesel_Flashcards */;
+			targetProxy = D7C2C86B23FF6BB8005A945C /* PBXContainerItemProxy */;
+		};
+		D7C2C87723FF6BB8005A945C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7C2C85323FF6BB2005A945C /* Leesel_Flashcards */;
+			targetProxy = D7C2C87623FF6BB8005A945C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D7C2C85D23FF6BB2005A945C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7C2C85E23FF6BB2005A945C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D7C2C86223FF6BB8005A945C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7C2C86323FF6BB8005A945C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7C2C87C23FF6BB8005A945C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D7C2C87D23FF6BB8005A945C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7C2C87F23FF6BB8005A945C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Leesel_Flashcards/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.leesel.Leesel-Flashcards";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D7C2C88023FF6BB8005A945C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Leesel_Flashcards/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.leesel.Leesel-Flashcards";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D7C2C88223FF6BB8005A945C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Leesel_FlashcardsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.leesel.Leesel-FlashcardsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Leesel_Flashcards.app/Leesel_Flashcards";
+			};
+			name = Debug;
+		};
+		D7C2C88323FF6BB8005A945C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Leesel_FlashcardsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.leesel.Leesel-FlashcardsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Leesel_Flashcards.app/Leesel_Flashcards";
+			};
+			name = Release;
+		};
+		D7C2C88523FF6BB8005A945C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Leesel_FlashcardsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.leesel.Leesel-FlashcardsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Leesel_Flashcards;
+			};
+			name = Debug;
+		};
+		D7C2C88623FF6BB8005A945C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Leesel_FlashcardsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.leesel.Leesel-FlashcardsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Leesel_Flashcards;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7C2C84F23FF6BB2005A945C /* Build configuration list for PBXProject "Leesel_Flashcards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7C2C87C23FF6BB8005A945C /* Debug */,
+				D7C2C87D23FF6BB8005A945C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7C2C87E23FF6BB8005A945C /* Build configuration list for PBXNativeTarget "Leesel_Flashcards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7C2C87F23FF6BB8005A945C /* Debug */,
+				D7C2C88023FF6BB8005A945C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7C2C88123FF6BB8005A945C /* Build configuration list for PBXNativeTarget "Leesel_FlashcardsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7C2C88223FF6BB8005A945C /* Debug */,
+				D7C2C88323FF6BB8005A945C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7C2C88423FF6BB8005A945C /* Build configuration list for PBXNativeTarget "Leesel_FlashcardsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7C2C88523FF6BB8005A945C /* Debug */,
+				D7C2C88623FF6BB8005A945C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7C2C84C23FF6BB2005A945C /* Project object */;
+}
