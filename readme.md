@@ -7,7 +7,7 @@ Demo of flashcard app for lab 2. User may now create their own flashcards.
 
 ### App Walk-though
 
-<img src="YOUR_GIF_URL_HERE" width=200><br>
+<img src="https://media.giphy.com/media/Quylk3uKNFyLWhdodP/giphy.gif" width=200><br>
 
 ## Required
 - [x] User can open the creation screen
