@@ -15,6 +15,7 @@
 		D7C2C86423FF6BB8005A945C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7C2C86223FF6BB8005A945C /* LaunchScreen.storyboard */; };
 		D7C2C86F23FF6BB8005A945C /* Leesel_FlashcardsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C2C86E23FF6BB8005A945C /* Leesel_FlashcardsTests.swift */; };
 		D7C2C87A23FF6BB8005A945C /* Leesel_FlashcardsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C2C87923FF6BB8005A945C /* Leesel_FlashcardsUITests.swift */; };
+		D7D7267724218524000109F2 /* CreationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D7267624218524000109F2 /* CreationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		D7C2C87523FF6BB8005A945C /* Leesel_FlashcardsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Leesel_FlashcardsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7C2C87923FF6BB8005A945C /* Leesel_FlashcardsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leesel_FlashcardsUITests.swift; sourceTree = "<group>"; };
 		D7C2C87B23FF6BB8005A945C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7D7267624218524000109F2 /* CreationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				D7C2C85923FF6BB2005A945C /* SceneDelegate.swift */,
 				D7C2C85B23FF6BB2005A945C /* ViewController.swift */,
 				D7C2C85D23FF6BB2005A945C /* Main.storyboard */,
+				D7D7267624218524000109F2 /* CreationViewController.swift */,
 				D7C2C86023FF6BB8005A945C /* Assets.xcassets */,
 				D7C2C86223FF6BB8005A945C /* LaunchScreen.storyboard */,
 				D7C2C86523FF6BB8005A945C /* Info.plist */,
@@ -262,6 +265,7 @@
 				D7C2C85C23FF6BB2005A945C /* ViewController.swift in Sources */,
 				D7C2C85823FF6BB2005A945C /* AppDelegate.swift in Sources */,
 				D7C2C85A23FF6BB2005A945C /* SceneDelegate.swift in Sources */,
+				D7D7267724218524000109F2 /* CreationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
