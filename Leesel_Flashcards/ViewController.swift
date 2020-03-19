@@ -24,6 +24,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        backLabel.isHidden = true
+        frontLabel.isHidden = false
         readSavedFlashcards()
         if flashcards.count == 0 {
             updateFlashcard(question: "What is the Capital of Brazil?", answer: "Brasilia")
@@ -79,7 +81,14 @@ class ViewController: UIViewController {
     @IBOutlet weak var nextButton: UIButton!
     
     @IBAction func didTapOnFlashcard(_ sender: Any) {
-        frontLabel.isHidden = true;
+//        frontLabel.isHidden = true;
+        if frontLabel.isHidden == true {
+            frontLabel.isHidden = false
+            backLabel.isHidden = true
+        } else if backLabel.isHidden == true {
+            backLabel.isHidden = false
+            frontLabel.isHidden = true
+        }
     }
     
     func updateFlashcard(question: String, answer: String) {
