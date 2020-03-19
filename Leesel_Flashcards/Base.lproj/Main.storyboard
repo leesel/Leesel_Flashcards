@@ -51,6 +51,21 @@
                                     <segue destination="d4x-NP-fE4" kind="presentation" id="mt1-TY-LDR"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hvb-LC-lKb">
+                                <rect key="frame" x="34" y="839" width="43" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="Prev"/>
+                                <connections>
+                                    <action selector="didTapOnPrev:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ndk-7z-FcM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PpO-hL-Wh7">
+                                <rect key="frame" x="336" y="836" width="43" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="Next"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -58,6 +73,8 @@
                     <connections>
                         <outlet property="backLabel" destination="3UY-CE-jSh" id="Dut-rY-9RR"/>
                         <outlet property="frontLabel" destination="kgi-CF-Ae3" id="Ret-nf-uop"/>
+                        <outlet property="nextButton" destination="PpO-hL-Wh7" id="qoF-6X-4S4"/>
+                        <outlet property="prevButton" destination="Hvb-LC-lKb" id="5Si-iZ-3kl"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
