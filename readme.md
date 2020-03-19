@@ -7,7 +7,7 @@ Demo of flashcard app for lab 3. User may now create and scroll back and forth t
 
 ### App Walk-though
 
-<img src="YOUR_GIF_URL_HERE" width=200><br>
+<img src="https://media.giphy.com/media/Jmai3r01SvwzjDUxio/giphy.gif" width=200><br>
 
 ## Required
 - [x] User can browse through multiple flashcards
@@ -57,6 +57,6 @@ Demo of Flashcard app for lab
 - [x] Build in logic to show the answer side when the card is tapped
 - [x] Push code to GitHub
 ## Optional
-- [ ] Toggle the flashcard between the question side and the answer side
+- [x] Toggle the flashcard between the question side and the answer side
 - [ ] Style the question and answer side of the card to better distinguish between the two sides
 - [ ] Add selectable multiple choice answers beneath the card
