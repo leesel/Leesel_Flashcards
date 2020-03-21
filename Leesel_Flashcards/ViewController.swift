@@ -18,11 +18,39 @@ class ViewController: UIViewController {
     @IBOutlet weak var frontLabel: UILabel!
     @IBOutlet weak var backLabel: UILabel!
     
+    @IBOutlet weak var card: UIView!
+    @IBOutlet weak var btnOptionOne: UIButton!
+    @IBOutlet weak var btnOptionTwo: UIButton!
+    @IBOutlet weak var btnOptionThree: UIButton!
+    
+    
     var flashcards = [Flashcard]()
     var currentIndex = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        card.layer.cornerRadius = 20.0 //optional - card have rounded edges
+        //card.clipsToBounds = true
+        frontLabel.layer.cornerRadius = 20.0
+        backLabel.layer.cornerRadius = 20.0
+        
+        frontLabel.clipsToBounds = true
+        backLabel.clipsToBounds = true
+        card.layer.shadowRadius = 15.0
+        card.layer.shadowOpacity = 0.2
+        
+        btnOptionOne.layer.cornerRadius = 20.0
+        btnOptionOne.layer.borderWidth = 1.0
+        btnOptionOne.layer.borderColor = #colorLiteral(red: 0.9390786917, green: 0.34056547, blue: 0.3704205954, alpha: 1)
+        
+        btnOptionTwo.layer.cornerRadius = 20.0
+        btnOptionTwo.layer.borderWidth = 1.0
+        btnOptionTwo.layer.borderColor = #colorLiteral(red: 0.9390786917, green: 0.34056547, blue: 0.3704205954, alpha: 1)
+        
+        btnOptionThree.layer.cornerRadius = 20.0
+        btnOptionThree.layer.borderWidth = 1.0
+        btnOptionThree.layer.borderColor = #colorLiteral(red: 0.9390786917, green: 0.34056547, blue: 0.3704205954, alpha: 1)
+        
         // Do any additional setup after loading the view.
         backLabel.isHidden = true
         frontLabel.isHidden = false
@@ -35,6 +63,24 @@ class ViewController: UIViewController {
         }
     }
 
+    @IBAction func didTapOptionOne(_ sender: Any) {
+        backLabel.isHidden = true
+        frontLabel.isHidden = false
+    }
+    
+    @IBAction func didTapOptionTwo(_ sender: Any) {
+        frontLabel.isHidden = true
+        backLabel.isHidden = false
+        //btnOptionTwo.backgroundColor = UIColor(red: 0/255, green: 184/255, blue: 148/255, alpha: 1.0)
+        //UIColor(hex: "#00b894")
+        //rgb(0,184,148)
+    }
+    
+    @IBAction func didTapOptionThree(_ sender: Any) {
+        backLabel.isHidden = true
+        frontLabel.isHidden = false
+    }
+    
     @IBAction func didTapOnPrev(_ sender: Any) {
         currentIndex = currentIndex - 1
         updateLabels()
@@ -127,5 +173,34 @@ class ViewController: UIViewController {
         
     }
     
+}
+
+//code below is to convert hex to UIColor
+extension UIColor {
+    public convenience init?(hex: String) {
+        let r, g, b, a: CGFloat
+
+        if hex.hasPrefix("#") {
+            let start = hex.index(hex.startIndex, offsetBy: 1)
+            let hexColor = String(hex[start...])
+
+            if hexColor.count == 8 {
+                let scanner = Scanner(string: hexColor)
+                var hexNumber: UInt64 = 0
+
+                if scanner.scanHexInt64(&hexNumber) {
+                    r = CGFloat((hexNumber & 0xff000000) >> 24) / 255
+                    g = CGFloat((hexNumber & 0x00ff0000) >> 16) / 255
+                    b = CGFloat((hexNumber & 0x0000ff00) >> 8) / 255
+                    a = CGFloat(hexNumber & 0x000000ff) / 255
+
+                    self.init(red: r, green: g, blue: b, alpha: a)
+                    return
+                }
+            }
+        }
+
+        return nil
+    }
 }
 
