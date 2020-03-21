@@ -72,7 +72,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ULr-q4-IfT">
                                 <rect key="frame" x="73" y="397" width="269" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Se Paulo">
+                                <state key="normal" title="Sâo Paulo">
                                     <color key="titleColor" red="0.93907869170984459" green="0.3405654700112164" blue="0.37042059543279371" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
@@ -92,7 +92,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="eEr-3S-Sct">
                                 <rect key="frame" x="73" y="519" width="269" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="New York">
+                                <state key="normal" title="Rio De Janeiro">
                                     <color key="titleColor" red="0.93907869170000002" green="0.34056546999999998" blue="0.3704205954" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
