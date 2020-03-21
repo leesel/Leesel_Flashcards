@@ -15,10 +15,15 @@ class CreationViewController: UIViewController {
     @IBOutlet weak var questionTextField: UITextField!
     @IBOutlet weak var answerTextField: UITextField!
     
+    var initialQuestion: String?
+    var initialAnswer: String?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        questionTextField.text = initialQuestion
+        answerTextField.text = initialAnswer
     }
     
    @IBAction func didTapOnCancel(_ sender: Any) {
@@ -30,8 +35,20 @@ class CreationViewController: UIViewController {
         let questionText = questionTextField.text
         let answerText = answerTextField.text
         
-        flashcardsController.updateFlashcard(question: questionText!, answer: answerText!)
-        dismiss(animated: true)
+        let alert = UIAlertController(title: "Missing Text", message: "Please enter both a question and an answer or hit the Cancel button on the top left", preferredStyle: .alert)
+        
+        let okAction = UIAlertAction(title: "OK", style: .default)
+        alert.addAction(okAction)
+    
+        
+        if questionText == nil || answerText == nil || questionText!.isEmpty || answerText!.isEmpty{
+           present(alert, animated: true)
+        } else {
+            flashcardsController.updateFlashcard(question: questionText!, answer: answerText!)
+            dismiss(animated: true)
+        }
+        
+        
     }
     
     /*
