@@ -47,7 +47,7 @@ Demo of Flashcard app for lab, user may toggle between front of card and back of
 ### App Walk-though
 
 <img src="https://media.giphy.com/media/KeX2bGDhPXEK09GhUX/giphy.gif" width=200><br>
-- Old Gif (Below)
+- Old Gif (Below)  <br>
 <img src="https://media.giphy.com/media/LpvB0jLJDWsBfeUrm8/giphy.gif" width=200><br>
 
 
