@@ -15,6 +15,12 @@ class CreationViewController: UIViewController {
     @IBOutlet weak var questionTextField: UITextField!
     @IBOutlet weak var answerTextField: UITextField!
     
+    @IBOutlet weak var extraAnswerOne: UITextField!
+    @IBOutlet weak var extraAnswerTwo: UITextField!
+    @IBOutlet weak var extraAnswerThree: UITextField!
+    
+    
+    
     var initialQuestion: String?
     var initialAnswer: String?
     
@@ -40,11 +46,15 @@ class CreationViewController: UIViewController {
         let okAction = UIAlertAction(title: "OK", style: .default)
         alert.addAction(okAction)
     
+        var isExisting = false
+        if initialQuestion != nil{
+            isExisting = true
+        }
         
         if questionText == nil || answerText == nil || questionText!.isEmpty || answerText!.isEmpty{
            present(alert, animated: true)
         } else {
-            flashcardsController.updateFlashcard(question: questionText!, answer: answerText!)
+            flashcardsController.updateFlashcard(question: questionText!, answer: answerText!, isExisting: isExisting, extraAnswerOne: extraAnswerOne.text!, extraAnswerTwo: extraAnswerTwo.text!, extraAnswerThree: extraAnswerThree.text!)
             dismiss(animated: true)
         }
         

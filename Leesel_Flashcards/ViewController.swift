@@ -56,7 +56,7 @@ class ViewController: UIViewController {
         frontLabel.isHidden = false
         readSavedFlashcards()
         if flashcards.count == 0 {
-            updateFlashcard(question: "What is the Capital of Brazil?", answer: "Brasilia")
+            updateFlashcard(question: "What is the Capital of Brazil?", answer: "Brasilia", isExisting: true, extraAnswerOne: "Sâo Paulo", extraAnswerTwo: "Brasilia", extraAnswerThree: "Rio De Janeiro")
         } else {
             updateLabels()
             updateNextPrevButtons()
@@ -92,6 +92,29 @@ class ViewController: UIViewController {
            updateLabels()
            updateNextPrevButtons()
        }
+    
+    @IBAction func didTapOnDelete(_ sender: Any) {
+        let alert = UIAlertController(title: "Delete Flashcard", message: "Are you sure you want to delete this flashcard?", preferredStyle: .actionSheet)
+        
+        let deleteAction = UIAlertAction(title: "Delete", style: .destructive) { action in
+            self.deleteCurrentFlashcard()
+        }
+        
+        let cancelAction = UIAlertAction(title: "Cancel", style: .cancel)
+        
+        alert.addAction(deleteAction)
+        alert.addAction(cancelAction)
+    }
+    
+    func deleteCurrentFlashcard(){
+        flashcards.remove(at: currentIndex)
+        if currentIndex > flashcards.count - 1 {
+            currentIndex = flashcards.count - 1
+        }
+        updateNextPrevButtons()
+        updateLabels()
+        saveAllFlashcardsToDisk()
+    }
     
     func readSavedFlashcards() {
         if let dictionaryArray = UserDefaults.standard.array(forKey: "flashcards") as? [[String: String]] {
@@ -137,15 +160,25 @@ class ViewController: UIViewController {
         }
     }
     
-    func updateFlashcard(question: String, answer: String) {
+    func updateFlashcard(question: String, answer: String, isExisting: Bool, extraAnswerOne: String?, extraAnswerTwo: String?, extraAnswerThree: String?) {
         let flashcard = Flashcard(question: question, answer: answer)
 //        frontLabel.text = flashcard.question
 //        backLabel.text = flashcard.answer
-        flashcards.append(flashcard)
-        print("😎 Added new flashcard")
-        print("😎 We now have \(flashcards.count) flashcards")
-        currentIndex = flashcards.count - 1
-        print("😎 Our current index is \(currentIndex)")
+        
+        btnOptionOne.setTitle(extraAnswerOne, for: .normal)
+        btnOptionTwo.setTitle(extraAnswerTwo, for: .normal)
+        btnOptionThree.setTitle(extraAnswerThree, for: .normal)
+        
+        if isExisting {
+            flashcards[currentIndex] = flashcard
+        } else {
+            flashcards.append(flashcard)
+            print("😎 Added new flashcard")
+            print("😎 We now have \(flashcards.count) flashcards")
+            currentIndex = flashcards.count - 1
+            print("😎 Our current index is \(currentIndex)")
+        }
+    
         updateNextPrevButtons()
         updateLabels()
         saveAllFlashcardsToDisk()
