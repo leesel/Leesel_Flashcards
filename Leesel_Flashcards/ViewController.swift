@@ -104,6 +104,7 @@ class ViewController: UIViewController {
         
         alert.addAction(deleteAction)
         alert.addAction(cancelAction)
+        present(alert, animated: true)
     }
     
     func deleteCurrentFlashcard(){

@@ -3,9 +3,15 @@
 ## Lab 3
 
 ### App Description
-Demo of flashcard app for lab 3. User may now create and scroll back and forth through multiple flashcards that save to disk instead of erase after re-opening.
+Demo of flashcard app for lab 3. User may now create and scroll back and forth through multiple flashcards that save to disk instead of erase after re-opening. May also delete and edit cards and choices.
 
 ### App Walk-though
+
+Updated with Optionals (Below)<br>
+
+<img src="https://media.giphy.com/media/ch8DNZgyOszxW8Z0KK/giphy.gif" width=200><br>
+
+Old Gif (Below)<br>
 
 <img src="https://media.giphy.com/media/Jmai3r01SvwzjDUxio/giphy.gif" width=200><br>
 
@@ -14,9 +20,9 @@ Demo of flashcard app for lab 3. User may now create and scroll back and forth t
 - [x] User can re-open the app and see previously created flashcards
 - [x] Push code to GitHub
 ## Optional
-- [ ] User can delete a flashcard
-- [ ] User can edit existing flashcard
-- [ ] User can store multiple choice questions
+- [x] User can delete a flashcard
+- [x] User can edit existing flashcard
+- [x] User can store multiple choice questions
 
 
 ## Lab 2
