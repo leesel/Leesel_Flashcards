@@ -20,7 +20,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="addButton"/>
                                 <connections>
-                                    <segue destination="d4x-NP-fE4" kind="presentation" id="mt1-TY-LDR"/>
+                                    <segue destination="d4x-NP-fE4" kind="presentation" identifier="CreationSegue" id="mt1-TY-LDR"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hvb-LC-lKb">
@@ -172,12 +172,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Extra Answer #3" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="poK-B2-U3f">
-                                <rect key="frame" x="113" y="488" width="243" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="FxD-1j-Wsk"/>
@@ -197,7 +191,6 @@
                     <connections>
                         <outlet property="answerTextField" destination="mQd-Pa-eX9" id="Hle-if-DCx"/>
                         <outlet property="extraAnswerOne" destination="BnB-RR-hZw" id="1Oq-uj-fDB"/>
-                        <outlet property="extraAnswerThree" destination="poK-B2-U3f" id="0Uo-t7-p4q"/>
                         <outlet property="extraAnswerTwo" destination="PUd-Qi-hSg" id="Ntl-9g-VSX"/>
                         <outlet property="questionTextField" destination="qkH-yY-jOR" id="Aav-Op-wTD"/>
                     </connections>
@@ -234,6 +227,6 @@
         <image name="arrowRightDisabled" width="64" height="64"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="drx-WH-fuo"/>
+        <segue reference="mt1-TY-LDR"/>
     </inferredMetricsTieBreakers>
 </document>
