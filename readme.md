@@ -3,7 +3,7 @@
 ## Lab 4
 
 ### App Description
-Fully functioning Flashcards app with an app icon and splash screen enabling users to create new cards, save cards and delete cards.
+Fully functioning Flashcards app with an app icon, animations, images, and splash screen enabling users to create new cards, save cards and delete cards.
 
 ### App Walk-though
 
