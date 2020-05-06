@@ -1,6 +1,4 @@
-## Flashcard Demo
-
-## Lab 4
+## Flashcards App Demo
 
 ### App Description
 Fully functioning Flashcards app with an app icon, animations, images, and splash screen enabling users to create new cards, save cards and delete cards.
